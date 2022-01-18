@@ -1,0 +1,38 @@
+{
+  "name": "@svl-td/ag-grid",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Bian2017 <bgl_cumt_zju@163.com>",
+  "homepage": "https://svl-fe.github.io/svl-td/tree/main/packages/ag-grid#readme",
+  "license": "ISC",
+  "main": "src/index.tsx",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svl-fe/svl-td.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/svl-fe/svl-td/issues"
+  },
+  "dependencies": {
+    "ag-grid-community": "^26.2.1",
+    "ag-grid-enterprise": "^26.2.1",
+    "ag-grid-react": "^26.2.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.178"
+  }
+}
